@@ -1,0 +1,78 @@
+
+/* Header section */
+.header {
+    cursor: pointer;
+    font-family: Inter, serif;
+    display: flex;
+    margin-top: 35px;
+    margin-left: 75px;
+    margin-right: 75px;
+    justify-content: space-between;
+}
+
+.header img {
+    width: 130px;
+}
+
+.header .navigation-links {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .navigation-links div {
+    cursor: pointer;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+/* Main content section */
+.main-content {
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.main-content img {
+    width: 1000px;
+}
+
+/* Text section */
+.text-section {
+    display: flex;
+    justify-content: center;
+    font-family: Inter, serif;
+    color: #387ed1;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.text-content div {
+    cursor: text;
+}
+
+.text-content div:first-child {
+    padding-left: 120px;
+    font-size: 40px;
+    font-weight: 420;
+    margin-bottom: 20px;
+}
+
+.text-content div:last-child {
+    font-size: large;
+}
+
+/* Sign up button */
+.sign-up-button {
+    display: flex;
+    justify-content: center;
+    background-color: #387ed1;
+    margin: 30px 750px;
+    font-family: Inter, serif;
+    color: white;
+    padding: 11px 20px;
+    font-size: large;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: 500;
+}
